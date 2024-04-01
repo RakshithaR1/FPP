@@ -8,5 +8,7 @@ def cstodict(arr):
   print(dict)
 cstodict(arr)
 
+print({j[0]:j[1] for j in [i.split("=") for i in arr.split(";")]})
+
   
   
