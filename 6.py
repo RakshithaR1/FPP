@@ -1,2 +1,12 @@
 arr = "a=b;c=d;e=f;g=h"
-print("hello")
+dict = {}
+def cstodict(arr):
+  for i in arr.split(";"):
+     x=i.split("=")
+     dict.update({x[0]:x[1]})
+     
+  print(dict)
+cstodict(arr)
+
+  
+  
