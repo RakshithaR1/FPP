@@ -11,3 +11,9 @@ while True:
         print(item)  # Print the current item
     except StopIteration:
         break  # Exit the loop when StopIteration is raised
+      
+class MyIterator:
+    a=10
+    def __init__(self):
+        self.current = 1
+        
