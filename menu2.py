@@ -1,6 +1,6 @@
 class menu:
   def __init__(self):
-    self.item = self
+    self.item = ()
     
   def show(self):
     menu_dict = {self.item[i] : self.item[i+1] for i in range(0,len(self.item),2)}
